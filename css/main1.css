@@ -1,0 +1,151 @@
+/* alexandrite */
+
+ #alexandrite {
+   position: relative;
+   padding: 4.2rem 0 12rem;
+   background-color: #FFFFFF;
+   min-height: 696px;
+   text-align: center;
+   overflow-y: auto;
+   height:100%;
+ }
+
+ #alexandrite img {
+   width: 330px;
+   height: 250px;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+ }
+
+#alexandrite h3 {
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 3rem;
+  line-height: 1.667;
+  color: #07617d;
+  text-transform: uppercase;
+  letter-spacing: .3rem;
+  position: relative;
+}
+#alexandrite h2 {
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 2rem;
+  line-height: 1.667;
+  color: #07617d;
+  text-transform: uppercase;
+  letter-spacing: .3rem;
+  position: relative;
+  text-align: left;
+}
+
+#alexandrite P {
+font-family:Sans,"Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 18px;
+color: gray;
+letter-spacing: 2px;
+position: relative;
+text-align: left;
+margin:0 0 25px;
+font-size:18px;
+line-height:1.5;
+font-weight: normal;
+}
+#alexandrite h4 {
+font-family:Sans,"Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 18px;
+color: gray;
+letter-spacing: 2px;
+position: relative;
+text-align: center;
+margin:0 0 25px;
+font-size:18px;
+line-height:1.5;
+font-weight: normal;
+}
+
+#alexandrite .lead {
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 4rem;
+  line-height: 1.8;
+  color: #2e383f;
+  margin-top: 6rem;
+}
+
+/* Responsive alexandrite */
+
+@media only screen and (max-width: 1024px) {
+  #alexandrite {
+    min-height: 636px;
+  }
+  #alexandrite .alexandrite-wrap {
+    max-width: 800px;
+  }
+  #alexandrite .lead {
+    font-size: 3.8rem;
+  }
+}
+@media only screen and (max-width: 900px) {
+  #alexandrite .alexandrite-wrap {
+    max-width: 720px;
+  }
+  #alexandrite .lead {
+    font-size: 3.6rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #alexandrite h3 {
+    font-size: 1.7rem;
+  }
+  #alexandrite .alexandrite-wrap {
+    max-width: 600px;
+  }
+  #alexandrite .lead {
+    font-size: 3.1rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #alexandrite {
+    min-height: auto;
+  }
+  #alexandrite .alexandrite-wrap {
+    max-width: 500px;
+  }
+  #alexandrite .lead {
+    margin-top: 4.8rem;
+    font-size: 2.8rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  #alexandrite h3 {
+    font-size: 1.5rem;
+  }
+  #alexandrite .lead {
+    font-size: 2.5rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  #alexandrite {
+    padding: 4.2rem 0 9.6rem;
+  }
+  #alexandrite .alexandrite-wrap {
+    max-width: 380px;
+  }
+  #alexandrite .lead {
+    font-size: 2.3rem;
+  }
+}
+
+.w3-display-container {
+  font-family:Sans,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 18px;
+  letter-spacing: 2px;
+  position: relative;
+  text-align: center;
+  font-weight: normal;
+}
+.myslides  {
+padding-bottom: 0px;
+}
+
+.padding {
+  padding-top: 2rem;
+}
